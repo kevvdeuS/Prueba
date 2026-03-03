@@ -1,5 +1,6 @@
-def saludo(nombre):
-    return f"Hola {nombre}, ¿Como te encuentras?"
+def saludo(nombre,apellido):
+    return f"Hola {nombre} {apellido}, ¿Como te encuentras?"
 
 valor = input("Escribe tu nombre: ")
-print(saludo(valor))
+valor2 = input("Escrino tu apellido: ")
+print(saludo(valor,valor2))
