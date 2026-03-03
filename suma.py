@@ -1,6 +1,4 @@
-def suma(a,b):
-    resultado = a + b
-    return resultado
+def suma(*num):
+    return sum(num)
 
-respuesta = f"El valor de la suma es: {suma(20,20)}"
-print(respuesta)
+print(f"El valor de la suma es: {suma(20,20)}")
